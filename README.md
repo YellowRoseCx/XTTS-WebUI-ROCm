@@ -2,14 +2,6 @@
 
 Currently working on AMD graphics cards using ROCm on Linux
 
-## Readme is available in the following languages
-
-[English](https://github.com/YellowRoseCx/XTTS-WebUI-ROCm/blob/main/README.md)
-
-[Russian](https://github.com/YellowRoseCx/XTTS-WebUI-ROCm/blob/main/README_ru_RU.md)
-
-[Português](https://github.com/YellowRoseCx/XTTS-WebUI-ROCm/blob/main/README_pt-BR.md)
-
 ## About the Project
 XTTS-Webui is a web interface that allows you to make the most of XTTS. There are other neural networks around this interface that will improve your results. You can also fine tune the model and get a high quality voice model.
 
