@@ -1,23 +1,14 @@
-# XTTS-WebUI
+# XTTS-WebUI for ROCm
 
-## Portable version
-
-The project now has a portable version, so you don't have to go to the trouble of installing all the dependencies.
-
-[Click here to download](https://huggingface.co/daswer123/xtts_portable/resolve/main/xtts-webui-v1_0-portable.zip?download=true)
-
-You don't need anything but Windows and an Nvidia graphics card with 6 GB of video memory to run it.
-
-## The Train tab is broken, if you want to train a model use a separate webui
-## [xtts-finetune-webui](https://github.com/daswer123/xtts-finetune-webui)
+Currently working on AMD graphics cards using ROCm on Linux
 
 ## Readme is available in the following languages
 
-[English](https://github.com/daswer123/xtts-webui/blob/main/README.md)
+[English](https://github.com/YellowRoseCx/XTTS-WebUI-ROCm/blob/main/README.md)
 
-[Russian](https://github.com/daswer123/xtts-webui/blob/main/README_ru_RU.md)
+[Russian](https://github.com/YellowRoseCx/XTTS-WebUI-ROCm/blob/main/README_ru_RU.md)
 
-[Português](https://github.com/daswer123/xtts-webui/blob/main/README_pt-BR.md)
+[Português](https://github.com/YellowRoseCx/XTTS-WebUI-ROCm/blob/main/README_pt-BR.md)
 
 ## About the Project
 XTTS-Webui is a web interface that allows you to make the most of XTTS. There are other neural networks around this interface that will improve your results. You can also fine tune the model and get a high quality voice model.
@@ -25,7 +16,7 @@ XTTS-Webui is a web interface that allows you to make the most of XTTS. There ar
 ![image](https://github.com/daswer123/xtts-webui/assets/22278673/89eb50c5-9a1e-41cf-8ae9-b734761716a6)
 
 ## Key Features
-- Easy working with XTTSv2
+- Easy working with XTTSv2 on AMD GPUs using ROCm
 - Batch processing for dubbing a large number of files
 - Ability to translate any audio with voice saving
 - Ability to improve results using neural networks and audio tools automatically
@@ -41,20 +32,12 @@ XTTS-Webui is a web interface that allows you to make the most of XTTS. There ar
 - [ ] Add the ability to customize speakers when batch processing
 - [ ] Add API
 
-## Installation
+## Installation (Install steps for ROCm have not been added or updated yet)
 
-Use this web UI through [Google Colab](https://colab.research.google.com/drive/1MrzAYgANm6u79rCCQQqBSoelYGiJ1qYL)
-
-**Please ensure you have Python 3.10.x or Python 3.11, CUDA 11.8 or CUDA 12.1 , Microsoft Builder Tools 2019 with c++ package, and ffmpeg installed**
+**Please ensure you have Python 3.10.x or Python 3.11, ROCm 5.7+, and ffmpeg installed**
 
 ### 1 Method, through scripts
 
-#### Windows
-To get started:
-- Run 'install.bat' file
-- To start the web UI, run 'start_xtts_webui.bat'
-- Open your preferred browser and go to local address displayed in console.
-- 
 #### Linux
 To get started:
 - Run 'install.sh' file
@@ -63,8 +46,8 @@ To get started:
 
 ### 2 Method, Manual
 Follow these steps for installation:
-1. Ensure that `CUDA` is installed
-2. Clone the repository: `git clone https://github.com/daswer123/xtts-webui`
+1. Ensure that `ROCm` is installed
+2. Clone the repository: `git clone https://github.com/YellowRoseCx/XTTS-WebUI-ROCm`
 3. Navigate into the directory: `cd xtts-webui`
 4. Create a virtual environment: `python -m venv venv`
 5. Activate the virtual environment:
@@ -148,4 +131,3 @@ In order for the model to work in RVC settings you need to select a model that y
 1. If you accidentally restart the interface during one of the steps, you can load data to additional buttons
 2. Removed the display of logs as it was causing problems when restarted
 3. The finished result is copied to the ready folder, these are fully finished files, you can move them anywhere and use them as a standard model
-4. Added support for Japanese [here](https://github.com/daswer123/xtts-webui/issues/15#issuecomment-1869090189)
