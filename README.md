@@ -44,7 +44,7 @@ Follow these steps for installation:
 4. Create a virtual environment: `python -m venv venv`
 5. Activate the virtual environment:
    - On Windows use : `venv\scripts\activate`
-   - On linux use    : `source venv\bin\activate`
+   - On linux use    : `source venv/bin/activate`
 
 6. Install PyTorch and torchaudio with pip command :
 
